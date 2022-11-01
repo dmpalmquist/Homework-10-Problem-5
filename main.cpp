@@ -5,13 +5,15 @@ using namespace std;
 
 const int ROWS = 2;
 const int COLS = 3;
-void arr(int [], [COLS]);
+void arr(int [][COLS]);
 int main() {
-  int nums[ROWS][COLS] = {  {33,16,29}, 
-                            {54, 67,99}  };
+  int nums[ROWS][COLS] = {  {33, 16, 29}, 
+                            {54, 67, 99}  };
 
 
   arr(nums);
+
+  cout << "\nNo the notation val[1][2] is not valid in the arr function.";
   
 
 }
